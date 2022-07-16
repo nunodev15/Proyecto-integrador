@@ -1,0 +1,370 @@
+    @media screen and ( max-width: 767px ) {
+    header{
+    background-color: #f3edec;
+    }
+    }
+
+    @media screen and ( min-width: 768px ) {
+    header{
+    background-color: #f3edec;
+    }
+    }
+
+    @media screen and ( min-width: 1024px ) {
+    header{
+    background-color: #f3edec;
+    }
+    
+    }
+
+h1{
+	text-align: center;
+	font-size: 70px;
+	color: white;
+    }
+    
+.red{
+	color: red;
+    }
+
+.h1{
+    color: white;
+    }
+    
+    h2{
+    text-align: center;
+    font-size: 35px;
+    color: red;
+    }
+    
+    header{
+	background-color: black;
+    }
+    
+    .header-bm{
+	text-align: center;
+    }
+    
+    body{
+    background-color: black;
+    }
+    
+    nav{
+	background-color: #f3edec;
+	max-width: 900px;
+	margin: auto;
+    /*box-shadow: 10px 15px 30px*/;
+	font-size: 20px;
+	margin-top: 50px;
+    }
+    
+    .logonav{
+	margin-left: 20px;
+    width: 150px;
+    height: 150px;
+	padding: auto;
+    }
+    
+    .menu-horizontal{
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+    }
+    
+    .menu-horizontal > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: rgb(230, 13, 13);
+	text-decoration: none;
+    }
+    
+    .menu-horizontal > li:hover{
+	background-color: gray;
+    }
+    
+    .menu-vertical{
+	position: absolute;
+	display: none;
+	list-style: none;
+	width: 200px;
+	background-color: gray /*rgba(0, 0, 0, .5)*/;
+    }
+    
+    .menu-horizontal li:hover .menu-vertical{
+	display: block;
+    }
+    
+    .menu-vertical li:hover{
+	background-color: black;
+    }
+    
+    .menu-vertical li a{
+	display: block;
+	color: white;
+	text-decoration: none;
+	padding: 15px 15px 15px 20px;
+    }
+    
+    .img-main{
+	text-align: center;
+    }
+    
+    .div-buscar{
+    text-align: center;	
+	}
+    
+	input[type=text] {
+	width: 60%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border-radius: 10px;
+	}
+    
+	.logos_sesion{
+	margin-left: 30px;
+	width: 30px;
+	height: 30px;
+	}
+    
+    /* Slider */
+    
+	.slider{
+	overflow:hidden;
+	width: 40%;
+	margin: auto;
+	/* Esto es para activar el zoom
+	(resolver para que
+	no se vea la otra imagen) overflow: hidden; */
+	}
+    
+	.slider ul{
+	display: flex;
+    padding: 0;
+	width: 400%;
+	animation: cambio 20s infinite alternate; 
+	animation-timing-function: ease-in;
+    
+	/* también se podrías: animation-direction: alternate;*/
+	}
+    
+	.slider li{
+	width: 100%;
+	list-style: none;
+	}
+    
+	.slider img{
+	width: 100%;  
+	}
+    
+	/* Esto es para activar el zoom
+	(resolver para que.slider:hover img{
+	-webkit-transform:scale(1.3);transform:scale(1);
+	} */
+    
+	@keyframes cambio {
+	0%   {margin-left: 0;}
+    20%  {margin-left: 0;}
+    
+	25%  {margin-left: -100%;}
+	45%  {margin-left: -100%;}
+    
+	50%  {margin-left: -200%;}
+	70%  {margin-left: -200%;}
+    
+	75%  {margin-left: -300%;}
+	100% {margin-left: -300%;}
+	}
+    
+	/* BOTÓN WPP */
+        
+	.btn-wpp{
+	position:fixed;
+	width:60px;
+	height:60px;
+	line-height: 63px;
+	bottom:25px;
+	right:25px;
+	background:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	font-size:35px;
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+	z-index:100;
+	transition: all 300ms ease;
+	}
+	.btn-wpp:hover{
+	background: #20ba5a;
+	}
+    
+	.nav{
+	border-radius: 20px;
+	}
+    
+	/* FORMULARIO DE REGISTRO */
+	h1{
+		color: white;
+		margin-top: 50px;
+	}
+    
+	.formulario_registro{
+	text-align: center;
+	box-sizing: border-box;
+	width: 400px;
+	background:  #a59a9a;
+	padding: 30px;
+	margin: auto;
+	margin-top: 10px;
+	border-radius: 15px;
+	text-decoration: none;
+	font-family: 'calibri';
+	color: red;
+	box-shadow: 5px 15px 40px #000;
+	}
+    
+	h3{
+    color: black;
+	}
+	
+	.formulario_registro button{
+	width: 100%;
+	background: black /*#b7464e;*/;
+	border: none;
+	padding: 8px;
+	color: red;
+	margin: 5px;
+	}
+	
+	.registro{
+	
+	width: 100%;
+	background: whitesmoke;
+	padding: 8px;
+	border-radius: 5px;
+	margin-bottom: 8px;
+	border: 1px solid black /*#b7464e;*/;
+	font-family: 'Calibri';
+	font-size: 15px;
+	}
+    
+	
+	.btnregistro2{
+	display: flex;
+	justify-content: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 100;
+	background-color: black;
+	text-decoration: none;
+	border-radius: 5px;
+	}
+	
+	
+	.tc{
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	box-shadow: 1px 1px 1px black;
+	font-size: px;
+	}
+    
+	/* PRODUCTOS */
+    
+	*{
+	box-sizing: border-box;
+	}
+	
+	section{
+	width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 50px 0;
+	}
+	
+	.card{
+	width: 33.333333%;
+	}
+    
+	*{
+	box-sizing: border-box;
+	}
+	
+	p{
+    color: white;
+	}
+    
+	section{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	padding: 50px 0;
+	}
+    
+	.estilo{
+	font-family: sans-serif;
+	text-align: center;
+	}
+    
+	.estilo .img-container{
+	overflow: hidden;
+	position: relative;
+	}
+    
+	.estilo .img-container img{
+	width: 100%;
+	}
+    
+	.estilo .img-container .price{
+	position: absolute;
+	top: 10px;
+	left: 0;
+	font-size: 20px;
+	background: white;
+	padding: 15px;
+	}
+    
+	.estilo .img-container .favorite{
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	background: white;
+	border-radius: 50%;
+	height: 50px;
+	width: 50px;
+	cursor: pointer;
+	}
+    
+	.estilo .img-container .favorite svg{
+	transform: translatey(14px);
+	}
+    
+	.estilo .img-container .favorite:hover{
+	background: red;
+	}
+    
+	.estilo .img-container .favorite:hover svg{
+	fill: white;
+	}
+    
+	.estilo a{
+	display: inline-block;
+	margin-top: 2px;
+	text-decoration: none;
+	color: black;
+	background-color: white;
+	padding: 15px;
+	border: 1px solid black;
+	}
+    
+	.estilo a:hover{
+	color: red;
+	background-color: transparent;
+	border: 1px solid black;
+	}	  
+
+	footer{
+		background-color: white;
+		
+	}
